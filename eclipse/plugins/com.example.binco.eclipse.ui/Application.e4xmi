@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_0OGfoPxBEeaAkuuVwOZeUQ" elementId="com.example.binco.eclipse.ui.application">
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_5aN_MPxBEeaAkuuVwOZeUQ" elementId="com.example.binco.eclipse.ui.trimmedwindow.binco" label="Binomial Coefficient SBT Demo" width="400" height="300"/>
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_5aN_MPxBEeaAkuuVwOZeUQ" elementId="com.example.binco.eclipse.ui.trimmedwindow.binco" label="Binomial Coefficient SBT Demo" width="400" height="140">
+    <children xsi:type="basic:Part" xmi:id="_pFjZsPxIEeaAkuuVwOZeUQ" elementId="com.example.binco.eclipse.ui.part.binomialcoefficient" contributionURI="bundleclass://com.example.binco.eclipse.ui/com.example.binco.eclipse.ui.BinCoPart" label="Binomial Coefficient"/>
+  </children>
   <addons xmi:id="_0OGfofxBEeaAkuuVwOZeUQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_0OGfovxBEeaAkuuVwOZeUQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_0OGfo_xBEeaAkuuVwOZeUQ" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
