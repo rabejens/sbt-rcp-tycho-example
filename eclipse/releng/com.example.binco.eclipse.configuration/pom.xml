@@ -26,6 +26,11 @@
 			<url>${scala-ide-repo.url}</url>
 			<layout>p2</layout>
 		</repository>
+		<repository>
+			<id>my-sbt</id>
+			<url>http://localhost:8080/site/</url>
+			<layout>p2</layout>
+		</repository>
 	</repositories>
 
 	<build>
