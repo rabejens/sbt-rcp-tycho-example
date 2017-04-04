@@ -22,6 +22,7 @@
                                 <!-- specify your depencies here -->
                                 <!-- groupId:artifactId:version -->
                                 <artifact><id>com.example:binco_2.11:0.0.1-SNAPSHOT</id></artifact>
+                                <artifact><id>org.scalatest:scalatest_2.11:3.0.1</id></artifact>
                             </artifacts>
                         </configuration>
                     </execution>

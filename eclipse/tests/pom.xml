@@ -4,21 +4,29 @@
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.example.binco.eclipse</groupId>
-	<artifactId>com.example.binco.eclipse.root</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>com.example.binco.eclipse.tests</artifactId>
 	<packaging>pom</packaging>
+
 	<parent>
 		<groupId>com.example.binco.eclipse</groupId>
-		<artifactId>com.example.binco.eclipse.configuration</artifactId>
+		<artifactId>com.example.binco.eclipse.root</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath>./releng/com.example.binco.eclipse.configuration</relativePath>
 	</parent>
 
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-surefire-plugin</artifactId>
+				<version>0.26.0</version>
+				<configuration>
+					<includes>**/Test*.java,**/*Test.java,**/*TestCase.java</includes>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
 	<modules>
-		<module>plugins</module>
-		<module>tests</module>
-		<module>features</module>
-		<module>releng</module>
+		<module>com.example.binco.eclipse.test</module>
 	</modules>
 </project>
-

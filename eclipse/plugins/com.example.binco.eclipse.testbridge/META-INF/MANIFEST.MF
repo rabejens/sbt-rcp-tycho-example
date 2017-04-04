@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Testbridge
+Bundle-SymbolicName: com.example.binco.eclipse.testbridge
+Bundle-Version: 0.0.1.qualifier
+Bundle-Vendor: EXAMPLE
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.scala-lang.scala-library,
+ org.junit;bundle-version="4.12.0";visibility:=reexport,
+ org.scalatest;bundle-version="3.0.1";visibility:=reexport,
+ org.scalactic;bundle-version="3.0.1";visibility:=reexport
+Export-Package: org.scalatest.junit

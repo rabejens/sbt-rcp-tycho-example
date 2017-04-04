@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Test
+Bundle-SymbolicName: com.example.binco.eclipse.test
+Bundle-Version: 0.0.1.qualifier
+Bundle-Vendor: EXAMPLE
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.scala-lang.scala-library,
+ com.example.binco.eclipse.testbridge;bundle-version="0.0.1",
+ com.example.binco_2.11;bundle-version="0.0.1"

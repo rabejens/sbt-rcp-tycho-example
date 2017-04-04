@@ -15,6 +15,7 @@
 
 	<modules>
 		<module>com.example.binco.eclipse.ui</module>
+		<module>com.example.binco.eclipse.testbridge</module>
 	</modules>
 </project>
 
